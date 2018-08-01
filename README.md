@@ -1,0 +1,1 @@
+使用 go 写的简易论坛, 使用的是 postgresql 数据库. 数据库文件在 /data/setup.sql, 数据库配置文件在 /data/config.go, 服务器配置文件在 /config.json 

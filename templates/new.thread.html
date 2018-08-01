@@ -1,0 +1,13 @@
+{{ define "content" }}
+
+<form role="form" action="/thread/create" method="post">
+  <div class="lead">发帖</div>
+  <div class="form-group">
+    <textarea class="form-control" name="topic" id="topic" placeholder="内容..." rows="4"></textarea>
+    <br/>
+    <br/>
+    <button class="btn btn-lg btn-primary pull-right" type="submit">发送</button>
+  </div>
+</form>
+
+{{ end }}

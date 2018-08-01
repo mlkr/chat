@@ -1,0 +1,15 @@
+{{ define "content" }}
+
+<form class="form-signin" role="form" action="/signup_account" method="post">
+  <h2 class="form-signin-heading" style="text-align: center;">
+    <i class="fa fa-comments-o">
+      Chat
+    </i>
+  </h2>
+  <input id="name" type="text" name="name" class="form-control" placeholder="昵称" required autofocus>
+  <input type="email" name="email" class="form-control" placeholder="邮箱" required>
+  <input type="password" name="password" class="form-control" placeholder="密码" required>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
+</form>
+
+{{ end }}
